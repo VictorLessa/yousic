@@ -19,6 +19,7 @@
 	display:flex;
 	align-item: center;
 	align-content: center;
+	justify-content:center;
 }
 body {
 	width: 100%;
