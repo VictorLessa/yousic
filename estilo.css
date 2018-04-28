@@ -81,11 +81,7 @@ nav.navbar-transparente {
 	color: #9bf0e1;
 	background: none;
 }
-/*--- prototipo ---*/
-iframe{
-	width:300px;
-	height:637px;
-}
+
 /* -- Imagem de capa -- */
 .capa {
 	display: table;
@@ -182,10 +178,6 @@ h1 {
 	height: 42px;
 	width: 42px;
 	display: block;
-	}
-	iframe{
-		width:300px;
-		height:637px ;
 	}
 }
 
