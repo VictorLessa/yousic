@@ -9,11 +9,14 @@
 	height: 100vh;
 	width: 100%;
 	overflow: auto;
-}
-.mockup{
-	margin-left: 50px;
-	margin-rigth:50px;
 
+}
+.scroll{
+	font-weight: 600;
+}
+.baixar{
+	font-weight: 600;
+	color: #6207e3;
 }
 .proto{
 	display:flex;
@@ -55,7 +58,7 @@ body {
 }
 nav.navbar-transparente {
 	padding: 15px 0px;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 1);
 	border: none;
 }
 
@@ -78,7 +81,11 @@ nav.navbar-transparente {
 	color: #9bf0e1;
 	background: none;
 }
-
+/*--- prototipo ---*/
+iframe{
+	width:438px;
+	height:930px;
+}
 /* -- Imagem de capa -- */
 .capa {
 	display: table;
@@ -86,14 +93,21 @@ nav.navbar-transparente {
 }
 
 .texto-capa {
-	text-align: center;
+	height: 100vh;
+	width: 100%;
 	color: white;
-	display: table-cell;
-	vertical-align: middle;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 
 /* -- Botoes -- */
 .btn-custom {
+	width: 100px;
+	margin: 0 auto;
 	color: white;
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
@@ -121,7 +135,7 @@ nav.navbar-transparente {
 /* -- secao servico -- */
 #servicos {
 	background: white;
-	padding:50px;
+	padding:100px;
 }
 
 .albuns{
@@ -130,15 +144,9 @@ nav.navbar-transparente {
 
 /* -- recursos -- */
 #recursos {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 100px;
 	color: white;
 }
-
-.rotacionar{
-    padding-left: 80px;
-}
-
 /* -- rodape -- */
 footer {
 	background: #000;
@@ -167,7 +175,7 @@ h1 {
 	    font-size: 50px; 
   	}
   	.btn-custom {
-    	margin: 10px 15px;
+    	margin: 0 auto;
 	}
 	.img-logo {
 	margin: 0px;
@@ -175,7 +183,10 @@ h1 {
 	width: 42px;
 	display: block;
 	}
-
+	iframe{
+		width:300px;
+		height:637px ;
+	}
 }
 
 /* sm */
