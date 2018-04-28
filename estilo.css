@@ -21,7 +21,7 @@ body {
 .anima{
 	transform: translate3d(0,20px,0);
 	transition: .3s all ease;
-	opacity: 0;
+	opacity: 1;
 }
 .anima-start{
 	transform: translate3d(0,0px,0);
