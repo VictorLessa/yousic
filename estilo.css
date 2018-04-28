@@ -20,12 +20,12 @@ body {
 }
 .anima{
 	transform: translate3d(0,20px,0);
-	transition: .4s all ease;
+	transition: .4s all ease-out;
 	opacity: 0;
 }
 .anima-start{
 	transform: translate3d(0,0px,0);
-	transition: .4s all ease;
+	transition: .4s all ease-out;
 	opacity: 1;
 }
 /* -- Barra de navegação -- */
