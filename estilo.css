@@ -126,9 +126,6 @@ nav.navbar-transparente {
 }
 
 .rotacionar{
-	transform: rotate(30deg);
-	-ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
     padding-left: 80px;
 }
 
