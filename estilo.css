@@ -15,6 +15,11 @@
 	margin-rigth:50px;
 
 }
+.proto{
+	display:flex;
+	align-item: center;
+	align-content: center;
+}
 body {
 	width: 100%;
 	background: url('imagens/background.jpg'),
