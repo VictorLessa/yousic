@@ -19,13 +19,13 @@ body {
 	overflow-x: hidden;
 }
 .anima{
-	transform: translate3d(0,-50px,0);
-	transition: .6s all ease;
+	transform: translate3d(0,20px,0);
+	transition: .3s all ease;
 	opacity: 0;
 }
 .anima-start{
 	transform: translate3d(0,0px,0);
-	transition: .6s all ease;
+	transition: .3s all ease;
 	opacity: 1;
 }
 /* -- Barra de navegação -- */

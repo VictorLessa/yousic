@@ -25,8 +25,7 @@ debounce = function(func, wait, immediate) {
 		$target.each(function(){
 			var itemTop = $(this).offset().top;
 			if (documentTop > itemTop - offset ) {
-				console.log('true');
-				//$(this).addClass(animationClass);
+				$(this).addClass(animationClass);
 			} else {
 				$(this).removeClass(animationClass);
 			}
