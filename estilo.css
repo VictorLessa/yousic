@@ -20,12 +20,12 @@ body {
 }
 .anima{
 	transform: translate3d(0,20px,0);
-	transition: .3s all ease;
+	transition: .4s all ease;
 	opacity: 0;
 }
 .anima-start{
 	transform: translate3d(0,0px,0);
-	transition: .3s all ease;
+	transition: .4s all ease;
 	opacity: 1;
 }
 /* -- Barra de navegação -- */
@@ -158,7 +158,7 @@ h1 {
     	margin: 10px 15px;
 	}
 	.img-logo {
-	margin: -8px;
+	margin: 0px;
 	height: 42px;
 	width: 42px;
 	display: block;
@@ -172,7 +172,7 @@ h1 {
 	    font-size: 70px; 
   	}
   	.img-logo {
-	margin: -8px;
+	margin: 0px;
 	height: 42px;
 	width: 42px;
 	display: block;
@@ -185,7 +185,7 @@ h1 {
 	    font-size: 80px; 
   	}
   	.img-logo {
-	margin: -8px;
+	margin: -5px;
 	height: 52px;
 	width: 52px;
 	display: block;
@@ -198,7 +198,7 @@ h1 {
 	    font-size: 100px; 
   	}
   	.img-logo {
-	margin: -8px;
+	margin: -5px;
 	height: 52px;
 	width: 52px;
 	display: block;
