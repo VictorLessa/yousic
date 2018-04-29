@@ -99,11 +99,6 @@ nav.navbar-transparente {
 	flex-direction: column;
 	text-align: center;
 }
-.texto-capa p{
-	font-size: 30px;
-	font-weight: 100; 
-	margin-top:-25px;
-}
 
 /* -- Botoes -- */
 .btn-custom {
@@ -189,28 +184,6 @@ h1 {
 		height: 0;
 		margin: 0;
 	}
-	/* serviços */
-	#servicos {
-		background: white;
-		padding:0px;
-	}
-	/*recursos*/
-	#recursos {
-		padding: 0px;
-		color: white;
-	}
-	nav.navbar-transparente {
-		padding: 10px 0px;
-		width: 100%;
-		background: rgba(0, 0, 0, 1);
-		border: none;
-	}
-	/*titulo capa*/
-	.texto-capa p{
-		font-size: 20px;
-		font-weight: 100; 
-		margin-top:-25px;
-	}
 }
 
 /* sm */
@@ -223,16 +196,6 @@ h1 {
 	height: 42px;
 	width: 42px;
 	display: block;
-	}
-	/* serviços */
-	#servicos {
-		background: white;
-		padding:0px;
-	}
-	/*recursos*/
-	#recursos {
-		padding: 0px;
-		color: white;
 	}
 }
 
@@ -247,16 +210,6 @@ h1 {
 	width: 52px;
 	display: block;
 	}
-	/* serviços */
-	#servicos {
-		background: white;
-		padding:50px;
-	}
-	/*recursos*/
-	#recursos {
-		padding: 50px;
-		color: white;
-	}
 }
 
 /* lg */
@@ -269,16 +222,6 @@ h1 {
 	height: 52px;
 	width: 52px;
 	display: block;
-	}
-	/* serviços */
-	#servicos {
-		background: white;
-		padding:100px;
-	}
-	/*recursos*/
-	#recursos {
-		padding: 100px;
-		color: white;
 	}
 }
 /* Fim Media queries */
