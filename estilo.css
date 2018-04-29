@@ -184,6 +184,16 @@ h1 {
 		height: 0;
 		margin: 0;
 	}
+	/* serviços */
+	#servicos {
+		background: white;
+		padding:0px;
+	}
+	/*recursos*/
+	#recursos {
+		padding: 0px;
+		color: white;
+	}
 }
 
 /* sm */
@@ -196,6 +206,16 @@ h1 {
 	height: 42px;
 	width: 42px;
 	display: block;
+	}
+	/* serviços */
+	#servicos {
+		background: white;
+		padding:0px;
+	}
+	/*recursos*/
+	#recursos {
+		padding: 0px;
+		color: white;
 	}
 }
 
@@ -210,6 +230,16 @@ h1 {
 	width: 52px;
 	display: block;
 	}
+	/* serviços */
+	#servicos {
+		background: white;
+		padding:50px;
+	}
+	/*recursos*/
+	#recursos {
+		padding: 50px;
+		color: white;
+	}
 }
 
 /* lg */
@@ -222,6 +252,16 @@ h1 {
 	height: 52px;
 	width: 52px;
 	display: block;
+	}
+	/* serviços */
+	#servicos {
+		background: white;
+		padding:100px;
+	}
+	/*recursos*/
+	#recursos {
+		padding: 100px;
+		color: white;
 	}
 }
 /* Fim Media queries */
