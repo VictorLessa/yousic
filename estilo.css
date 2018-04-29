@@ -200,10 +200,11 @@ h1 {
 		color: white;
 	}
 	nav.navbar-transparente {
-		padding: 10px 0px;
+		padding: 15px 0px;
 		background: rgba(0, 0, 0, 1);
 		border: none;
 	}
+	/*titulo capa*/
 	.texto-capa p{
 		font-size: 20px;
 		font-weight: 100; 
